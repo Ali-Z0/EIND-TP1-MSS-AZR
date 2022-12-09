@@ -1,0 +1,106 @@
+% ------------------------- PRELIMINARY TASK -----------------------------
+\section{Preliminary task}
+Our goal is to implement an LM317 regulation system, which has an input of \textbf{5V} and an output of \textbf{3V3}. To accomplish that, we must scale different parameters, that we will develop in the subsection \ref{ssec:num01} to \ref{ssec:num05}
+
+% ---------------- Subsection 1 ----------------
+\subsection{Resistive bridge sizing} \label{ssec:num01}
+{
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=50mm]{./Figures/LM317-Schematic.PNG}
+    \caption{Resistive-bridge schematic and formula in the datasheet}
+    \source{}
+    \label{fig:Rbridge}
+\end{figure}
+
+The formula in the datasheet neglects the breakdown current of the internal Zener diode, we decided to take consideration of it in our calculations.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=45mm]{./Figures/Inside-LM317.PNG}
+    \caption{Functional bloc diagram of LM317}
+    \source{}
+    \label{fig:FuncLM317}
+\end{figure}
+
+The voltage of the internal zener diode is \textbf{1.25V}, this is the reference and minimum voltage of the regulator. To dimension the resistive bridge, we must take into account the breakdown current of the diode which is \textbf{50uA}, when this condition is met, we know that the voltage between the output and the ADJ pin is the same as the reference voltage. We can then set an arbitrary value for one of the resistors knowing that the total voltage at the output must be \textbf{3.3V}. We decided to have a current of \textbf{50uA} through R1, to reduce the power dissipation in the bridge.
+
+\clearpage
+
+\subsubsection{Formulas}
+{
+As described bellow, we have as parameters:\\
+$ I_{adj} = 50 [uA] $ \\
+$ I1 = 50 [uA] $ \\
+Where I1 has been fixed by us to avoid having too much unnecessary current in the resistor bridge..\\
+$ U1 = 1.25 [V] $ 
+
+\begin{equation} \label{equ_R1}
+     R1 = \frac{U1}{I1} \\
+\end{equation} 
+\begin{equation} \label{equ_R2}
+     R2 = \frac{U2}{I2} = \frac{Uout - U1}{I_{adj}+I1} 
+\end{equation}  
+As equation (\ref{equ_R1}) and (\ref{equ_R2}) state, in our application we found the values: 
+\\ {$ R1 = 25 \ k\Omega $ \\ $ R2 = 20.5 \ k\Omega $}
+}
+
+}
+
+% ----------------Subsection 2 ----------------
+\subsection{Maximum output power calculation} \label{ssec:num02}
+{
+Since we have very few loss current in the resistive bridge, we decided to neglect it. \\
+We have as parameters: \\
+$ U_{in} = 5 [V] $ \\
+$ U_{out} = 3.3 [V] $ \\
+$ I_{out} = 100 [mA] $ (Specification) \\
+\begin{equation} \label{equ_Pmax}
+     P_{max} = (U_{out}-U_{in})*I_{out} \\
+\end{equation} 
+By applying equation number (\ref{equ_Pmax}) to our application, we found the value: \\ 
+{$ P_{max} = 330 \ mW $}
+
+}
+
+% ----------------Subsection 3 ----------------
+\subsection{Input provided power} \label{ssec:num03}
+{
+In this subsection, we will continue to neglect the diode breakdown current. To have as an output current \textbf{100 mA} we sized and output resitor by applying this formula:
+\begin{equation}
+    R_L = \frac{U_{out}}{I_{out}}
+\end{equation}
+So our load resistor value is $ \mathbf{ 33 \ \boldsymbol{\Omega} } $. \\
+We can now define our different powers in the systems:
+
+\begin{equation}
+    P_{out} = \frac{U_{out}}{I_{out}}
+\end{equation}
+
+\begin{equation}
+    P_{in} = \frac{{U_{out}}^2}{R_{L}}
+\end{equation}
+
+\begin{equation}
+    P_{reg} = P_{in} - P_{out}
+\end{equation}
+Calculated values for our application:\\
+$ P_{out} = 330 \ mW $ \\
+$ P_{in} = 500 \ mW $ \\
+$ P_{reg} = 170 \ mW $ \\
+
+}
+
+% ----------------Subsection 4 ----------------
+\subsection{Dissipated power in the LM317} \label{ssec:num04}
+{
+
+}
+
+% ----------------Subsection 5 ----------------
+\subsection{Temperature of the LM317 junction without cooling (Short-circuited)} \label{ssec:num05}
+{
+
+}
+
+\clearpage
