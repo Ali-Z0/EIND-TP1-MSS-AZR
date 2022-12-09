@@ -7,7 +7,7 @@ Our goal is to implement an LM317 regulation system, which has an input of \text
 {
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=50mm]{./Figures/LM317-Schematic.PNG}
+    \includegraphics[width=50mm]{../Figures/LM317-Schematic.PNG}
     \caption{Resistive-bridge schematic and formula in the datasheet}
     \source{}
     \label{fig:Rbridge}
@@ -17,7 +17,7 @@ The formula in the datasheet neglects the breakdown current of the internal Zene
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=45mm]{./Figures/Inside-LM317.PNG}
+    \includegraphics[width=45mm]{../Figures/Inside-LM317.PNG}
     \caption{Functional bloc diagram of LM317}
     \source{}
     \label{fig:FuncLM317}
@@ -66,11 +66,12 @@ By applying equation number (\ref{equ_Pmax}) to our application, we found the va
 % ----------------Subsection 3 ----------------
 \subsection{Input provided power} \label{ssec:num03}
 {
-In this subsection, we will continue to neglect the diode breakdown current. To have as an output current \textbf{100 mA} we sized and output resitor by applying this formula:
+In this subsection, we will continue to neglect the diode breakdown current. To have as an output current \textbf{100 mA} we sized an output resitor by applying this formula:
 \begin{equation}
     R_L = \frac{U_{out}}{I_{out}}
 \end{equation}
 So our load resistor value is $ \mathbf{ 33 \ \boldsymbol{\Omega} } $. \\
+\clearpage
 We can now define our different powers in the systems:
 
 \begin{equation}
@@ -88,12 +89,6 @@ Calculated values for our application:\\
 $ P_{out} = 330 \ mW $ \\
 $ P_{in} = 500 \ mW $ \\
 $ P_{reg} = 170 \ mW $ \\
-
-}
-
-% ----------------Subsection 4 ----------------
-\subsection{Dissipated power in the LM317} \label{ssec:num04}
-{
 
 }
 
