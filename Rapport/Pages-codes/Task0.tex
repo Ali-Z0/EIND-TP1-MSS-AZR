@@ -9,7 +9,7 @@ Our goal is to implement an LM317 regulation system, which has an input of \text
     \centering
     \includegraphics[width=50mm]{../Figures/LM317-Schematic.PNG}
     \caption{Resistive-bridge schematic and formula in the datasheet}
-    \source{}
+    \source{LM317 datasheet}
     \label{fig:Rbridge}
 \end{figure}
 
@@ -19,7 +19,7 @@ The formula in the datasheet neglects the breakdown current of the internal Zene
     \centering
     \includegraphics[width=45mm]{../Figures/Inside-LM317.PNG}
     \caption{Functional bloc diagram of LM317}
-    \source{}
+    \source{LM317 datasheet}
     \label{fig:FuncLM317}
 \end{figure}
 
@@ -27,7 +27,7 @@ The voltage of the internal zener diode is \textbf{1.25V}, this is the reference
 
 \clearpage
 
-\subsubsection{Formulas}
+\subsubsection{Sizing formulas}
 {
 As described bellow, we have as parameters:\\
 $ I_{adj} = 50 [uA] $ \\
@@ -95,6 +95,40 @@ $ P_{reg} = 170 \ mW $ \\
 % ----------------Subsection 5 ----------------
 \subsection{Temperature of the LM317 junction without cooling (Short-circuited)} \label{ssec:num05}
 {
+
+
+}
+
+\newpage
+
+\subsection{Simulation of the system} \label{ssecNum06}
+{
+In this section we will simulate our system to corroborate our previously dimensioned system (From section \ref{ssec:num01} to \ref{ssec:num03}).	
+	
+\underline{Simulation schematic :} \\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{../../Simulations/premiere_partie/pont_diviseur}
+	\caption{Schematic of the first part}
+	\label{fig:pontdiviseur}
+	\source{Authors}
+\end{figure}
+	
+\underline{Simulation method :}\\
+In order to perform our simulations, we used the DC analysis tool of Tina TI.
+
+\underline{Simulation results and analysis :}\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{../../Simulations/premiere_partie/tension_3v3}
+	\caption{Simulation of the first task}
+	\label{fig:tension3v3}
+	\source{Authors}
+\end{figure}
+
+
+As we can see on the figure \ref{fig:tension3v3}, the output voltage is well dimensioned knowing that there is \textbf{3.3V} on the load resistance, and a current of \textbf{100mA}. We can also see that the breakdown current of the diode is $ \sim 50 \mu A $ which is consistent with the datasheet.
 
 }
 
