@@ -2,14 +2,15 @@
 \contentsline {section}{\numberline {1}Introduction}{4}{}%
 \contentsline {section}{\numberline {2}Preliminary task}{5}{}%
 \contentsline {subsection}{\numberline {2.1}Resistive bridge sizing}{5}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Formulas}{6}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Sizing formulas}{6}{}%
 \contentsline {subsection}{\numberline {2.2}Maximum output power calculation}{6}{}%
 \contentsline {subsection}{\numberline {2.3}Input provided power}{6}{}%
 \contentsline {subsection}{\numberline {2.4}Temperature of the LM317 junction without cooling (Short-circuited)}{7}{}%
-\contentsline {section}{\numberline {3}Main task}{8}{}%
-\contentsline {subsection}{\numberline {3.1}Schematic proposal for limiting output current to 250mA}{8}{}%
-\contentsline {subsection}{\numberline {3.2}Plotting output tension depending on output current}{8}{}%
-\contentsline {subsection}{\numberline {3.3}Oscillogram of the output current depending on the input tension}{8}{}%
-\contentsline {subsection}{\numberline {3.4}Dissipated power calculation}{8}{}%
-\contentsline {subsection}{\numberline {3.5}Estimation of the junction's temperature without cooling}{8}{}%
-\contentsline {subsection}{\numberline {3.6}Short-circuited output - dissipated power calculation}{8}{}%
+\contentsline {subsection}{\numberline {2.5}Simulation of the system}{8}{}%
+\contentsline {section}{\numberline {3}Main task}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Schematic proposal for limiting output current to 250mA}{9}{}%
+\contentsline {subsection}{\numberline {3.2}Plotting output tension depending on output current}{10}{}%
+\contentsline {subsection}{\numberline {3.3}Oscillogram of the output current depending on the input tension}{10}{}%
+\contentsline {subsection}{\numberline {3.4}Dissipated power calculation}{10}{}%
+\contentsline {subsection}{\numberline {3.5}Estimation of the junction's temperature without cooling}{10}{}%
+\contentsline {subsection}{\numberline {3.6}Short-circuited output - dissipated power calculation}{10}{}%
