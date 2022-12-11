@@ -5,7 +5,7 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Sizing formulas}{6}{}%
 \contentsline {subsection}{\numberline {2.2}Maximum output power calculation}{6}{}%
 \contentsline {subsection}{\numberline {2.3}Input provided power}{6}{}%
-\contentsline {subsection}{\numberline {2.4}Temperature of the LM317 junction without cooling (Short-circuited)}{7}{}%
+\contentsline {subsection}{\numberline {2.4}Temperature of the LM317 junction without cooling}{7}{}%
 \contentsline {subsection}{\numberline {2.5}Simulation of the system}{8}{}%
 \contentsline {section}{\numberline {3}Main task}{9}{}%
 \contentsline {subsection}{\numberline {3.1}Schematic proposal for limiting output current to 250mA}{9}{}%

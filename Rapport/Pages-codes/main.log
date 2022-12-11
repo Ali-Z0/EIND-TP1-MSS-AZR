@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.7)  10 DEC 2022 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.11)  11 DEC 2022 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1137,12 +1137,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.84009> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.6001> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-
-Overfull \hbox (9.29819pt too wide) in paragraph at lines 8--8
- [][] []\T1/ptm/m/n/16 Temperature of the LM317 junc-tion wi-thout co-oling (Sh
-ort- 
- []
-
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -1213,10 +1207,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [5
 
  <../Figures/LM317-Schematic.PNG> <../Figures/Inside-LM317.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 87--92
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 98.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
+8.
+(c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 98.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 99.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 99.
+
+Missing character: There is no ° in font zptmcm7t!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1228,7 +1241,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
@@ -1238,7 +1251,7 @@ File: ../../Simulations/premiere_partie/pont_diviseur.png Graphic file (type pn
 g)
 <use ../../Simulations/premiere_partie/pont_diviseur.png>
 Package pdftex.def Info: ../../Simulations/premiere_partie/pont_diviseur.png  u
-sed on input line 112.
+sed on input line 116.
 (pdftex.def)             Requested size: 248.96957pt x 140.08858pt.
 <../../Simulations/premiere_partie/tension_3v3.png, id=39, 1029.8475pt x 557.08
 125pt>
@@ -1246,7 +1259,7 @@ File: ../../Simulations/premiere_partie/tension_3v3.png Graphic file (type png)
 
 <use ../../Simulations/premiere_partie/tension_3v3.png>
 Package pdftex.def Info: ../../Simulations/premiere_partie/tension_3v3.png  use
-d on input line 124.
+d on input line 128.
 (pdftex.def)             Requested size: 248.96957pt x 134.67126pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1265,11 +1278,7 @@ File: ../Figures/Partie2/SourceCourant.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/Partie2/SourceCourant.png  used on input li
 ne 9.
 (pdftex.def)             Requested size: 328.82707pt x 203.28777pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-1.
- (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1340,11 +1349,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 22248 strings out of 474968
- 456545 string characters out of 5780081
+ 22250 strings out of 474968
+ 456572 string characters out of 5780080
  780116 words of memory out of 5000000
- 43319 multiletter control sequences out of 15000+600000
- 517852 words of font info for 90 fonts, out of 8000000 for 9000
+ 43321 multiletter control sequences out of 15000+600000
+ 518166 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,11n,117p,1007b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/tex
@@ -1355,7 +1364,7 @@ ype1/urw/symbol/usyr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usy
 r.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/
 2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 247992 bytes).
+Output written on main.pdf (13 pages, 248598 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream

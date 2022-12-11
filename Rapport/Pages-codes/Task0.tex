@@ -75,11 +75,11 @@ So our load resistor value is $ \mathbf{ 33 \ \boldsymbol{\Omega} } $. \\
 We can now define our different powers in the systems:
 
 \begin{equation}
-    P_{out} = \frac{U_{out}}{I_{out}}
+    P_{out} = U_{out}*I_{out}
 \end{equation}
 
 \begin{equation}
-    P_{in} = \frac{{U_{out}}^2}{R_{L}}
+    P_{in} = U_{in}*I_{out}
 \end{equation}
 
 \begin{equation}
@@ -87,15 +87,23 @@ We can now define our different powers in the systems:
 \end{equation}
 Calculated values for our application:\\
 $ P_{out} = 330 \ mW $ \\
-$ P_{in} = 500 \ mW $ \\
+$ P_{in}  = 500 \ mW $ \\
 $ P_{reg} = 170 \ mW $ \\
-
 }
 
 % ----------------Subsection 5 ----------------
-\subsection{Temperature of the LM317 junction without cooling (Short-circuited)} \label{ssec:num05}
+\subsection{Temperature of the LM317 junction without cooling} \label{ssec:num05}
 {
+Finally, we have been asked to estimate the temperature of the LM317 junction, without cooling. Specification set the ambient. The datasheet provides us the thermal resistance between the junction and the ambient. So we have : \\
+$ T_{A} = 35 \ °C $ \\
+$ Rth_{JA} = 37.9 °C/W $\\
+We can define the temperature of the junction by :
+\begin{equation*}
+	T_{J} = T_{A} + Rth_{JA} * P_{reg}
+\end{equation*}
 
+Calculated valus for our application:\\
+$ T_{J} = 41,44 \ °C $ \\
 
 }
 
