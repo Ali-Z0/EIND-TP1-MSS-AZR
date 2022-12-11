@@ -45,6 +45,16 @@ We will observe this characteristic through our following measurements.
 
 \subsubsection{Measurement schematic}
 
+\subsubsection{Measures}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{../../Grph-pointG}
+	\caption{Point G measurements}
+	\label{fig:grph-pointg}
+	\source{Authors}
+\end{figure}
+
+
 }
 
 \newpage
@@ -65,12 +75,65 @@ We will observe this characteristic through our following measurements.
 \clearpage
 
 \subsection{Dissipated power calculation} \label{ssec:num14}
-{}
-\subsection{Estimation of the junction's temperature without cooling} \label{ssec:num15}
-{}
-\subsection{Short-circuited output - dissipated power calculation} \label{ssec:num16}
-{}
+{
+We can calculate the power dissipated in the LM317 using the same formula as before and taking in consideration the duty cycle. \\
+$\alpha = 50\% $ \\
 
+\begin{equation}
+	P_{reg_{ON}} = (U_{in_{ON}} - U_{out_{ON}})*I_{out_{ON}}
+\end{equation}
+
+\begin{equation}
+	P_{reg_{OFF}} = (U_{in_{OFF}} - U_{out_{OFF}})*I_{out_{OFF}}
+\end{equation}
+
+\begin{equation}
+	P_{reg_{TOT}} = P_{reg_{ON}}*\alpha + P_{reg_{OFF}} * (1-\alpha)
+\end{equation}
+
+Calculated values for our application:\\
+$ P_{reg_{ON}} = 6 W $ \\
+$ P_{reg_{OFF}}  = 0 W $ \\
+$ P_{reg_{TOT}}} = 3 W $ \\
+
+Datasheet set the maximum allowable power dissipation as : \\
+\begin{equation}
+	P_{MAX} = (T_{J_{MAX}} - T_{A}) / Rth_{JA}
+\end{equation}
+In our case, this value is :
+\begin{equation}
+P_{MAX} = 3,03 W
+\end{equation}
+So this mean we reached the absolute maximal power that our LM317 can dissipate. Going higher than this value would impact reliability and/or trigger temperature protections.
+
+}
+
+\clearpage
+
+\subsection{Estimation of the junction's temperature without cooling} \label{ssec:num15}
+{
+$ T_{A} = 35 \ °C $ \\
+$ Rth_{JA} = 37.9 °C/W $\\
+We can define the temperature of the junction by :
+\begin{equation*}
+	T_{J} = T_{A} + Rth_{JA} * P_{reg_{TOT}}
+\end{equation*}
+
+Calculated value for our application:\\
+$ T_{J} = 148,7 \ °C $ \\
+
+The datasheet set the maximal admissible temperature to 150°C.
+}
+\subsection{Short-circuited output - dissipated power calculation} \label{ssec:num16}
+{
+	\begin{equation}
+		P_{reg} = (U_{in} - U_{out} ) * I_{out}
+	\end{equation}
+	Calculated values for our application:\\
+	$ P_{reg} = 6W $ \\
+}
+
+\clearpage
 \section{Conclusion}
 {
 
