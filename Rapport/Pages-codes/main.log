@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.11)  11 DEC 2022 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.8)  11 DEC 2022 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1088,23 +1088,12 @@ File: ../ETML-ES-LOGO.png Graphic file (type png)
 <use ../ETML-ES-LOGO.png>
 Package pdftex.def Info: ../ETML-ES-LOGO.png  used on input line 20.
 (pdftex.def)             Requested size: 145.6229pt x 145.63344pt.
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[1
-
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../ETML-ES-LOGO
-.png>] (./main.toc
+) (./main.toc
 LaTeX Font Info:    Calculating math sizes for size <16> on input line 4.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  4.
- (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+
+(c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
@@ -1150,9 +1139,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2
+[1
 
-]
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../ETML-ES-LOGO
+.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1161,16 +1151,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3
+[2
 
 ] (./Task0.tex
-<../Figures/LM317-Schematic.PNG, id=20, 628.59843pt x 498.36188pt>
+<../Figures/LM317-Schematic.PNG, id=17, 628.59843pt x 498.36188pt>
 File: ../Figures/LM317-Schematic.PNG Graphic file (type png)
 <use ../Figures/LM317-Schematic.PNG>
 Package pdftex.def Info: ../Figures/LM317-Schematic.PNG  used on input line 10.
 
 (pdftex.def)             Requested size: 142.26378pt x 112.78816pt.
-<../Figures/Inside-LM317.PNG, id=21, 614.295pt x 533.74406pt>
+<../Figures/Inside-LM317.PNG, id=18, 614.295pt x 533.74406pt>
 File: ../Figures/Inside-LM317.PNG Graphic file (type png)
 <use ../Figures/Inside-LM317.PNG>
 Package pdftex.def Info: ../Figures/Inside-LM317.PNG  used on input line 20.
@@ -1184,7 +1174,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4
+[3
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 53--58
@@ -1204,7 +1194,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5
+[4
 
  <../Figures/LM317-Schematic.PNG> <../Figures/Inside-LM317.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 87--93
@@ -1250,14 +1240,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6
+[5
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-<../../Simulations/premiere_partie/pont_diviseur.png, id=38, 972.63374pt x 547.
+<../../Simulations/premiere_partie/pont_diviseur.png, id=35, 972.63374pt x 547.
 2947pt>
 File: ../../Simulations/premiere_partie/pont_diviseur.png Graphic file (type pn
 g)
@@ -1265,7 +1255,7 @@ g)
 Package pdftex.def Info: ../../Simulations/premiere_partie/pont_diviseur.png  u
 sed on input line 120.
 (pdftex.def)             Requested size: 248.96957pt x 140.08858pt.
-<../../Simulations/premiere_partie/tension_3v3.png, id=39, 1029.8475pt x 557.08
+<../../Simulations/premiere_partie/tension_3v3.png, id=36, 1029.8475pt x 557.08
 125pt>
 File: ../../Simulations/premiere_partie/tension_3v3.png Graphic file (type png)
 
@@ -1281,10 +1271,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7
+[6
 
 ]) (./Task1.tex
-<../Figures/Partie2/SourceCourant.png, id=44, 793.96625pt x 490.83376pt>
+<../Figures/Partie2/SourceCourant.png, id=40, 793.96625pt x 490.83376pt>
 File: ../Figures/Partie2/SourceCourant.png Graphic file (type png)
 <use ../Figures/Partie2/SourceCourant.png>
 Package pdftex.def Info: ../Figures/Partie2/SourceCourant.png  used on input li
@@ -1299,7 +1289,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <../../Simulations/premiere_partie/pont_diviseur.png> <../../Simulations/pre
+[7 <../../Simulations/premiere_partie/pont_diviseur.png> <../../Simulations/pre
 miere_partie/tension_3v3.PNG>]
 Overfull \hbox (2.5067pt too wide) in paragraph at lines 28--29
 []\T1/ptm/m/n/16 Overall, the LM317's abi-lity to re-gu-late ac-cor-ding to tem
@@ -1320,14 +1310,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9
+[8
 
  <../Figures/Partie2/SourceCourant.png>]
-<../../Grph-pointG.png, id=55, 462.528pt x 346.896pt>
+<../../SchemaMesureChargeElectronique.png, id=52, 833.1125pt x 355.82938pt>
+File: ../../SchemaMesureChargeElectronique.png Graphic file (type png)
+<use ../../SchemaMesureChargeElectronique.png>
+Package pdftex.def Info: ../../SchemaMesureChargeElectronique.png  used on inpu
+t line 49.
+(pdftex.def)             Requested size: 281.85587pt x 120.38313pt.
+<../../Grph-pointG.png, id=53, 462.528pt x 346.896pt>
 File: ../../Grph-pointG.png Graphic file (type png)
 <use ../../Grph-pointG.png>
-Package pdftex.def Info: ../../Grph-pointG.png  used on input line 51.
-(pdftex.def)             Requested size: 422.77664pt x 317.09972pt.
+Package pdftex.def Info: ../../Grph-pointG.png  used on input line 62.
+(pdftex.def)             Requested size: 328.82707pt x 246.63135pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1337,12 +1333,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10]
-<../../schemaMesurePulses.png, id=59, 367.3725pt x 199.49532pt>
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10
+
+ <../../SchemaMesureChargeElectronique.png> <../../Grph-pointG.png>]
+<../../schemaMesurePulses.png, id=62, 735.24687pt x 353.32pt>
 File: ../../schemaMesurePulses.png Graphic file (type png)
 <use ../../schemaMesurePulses.png>
-Package pdftex.def Info: ../../schemaMesurePulses.png  used on input line 67.
-(pdftex.def)             Requested size: 375.80544pt x 204.08827pt.
+Package pdftex.def Info: ../../schemaMesurePulses.png  used on input line 83.
+(pdftex.def)             Requested size: 375.80544pt x 180.59515pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1354,27 +1361,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11
 
- <../../Grph-pointG.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
-
- []
-
-! Extra }, or forgotten $.
-l.97 $ P_{reg_{TOT}}}
-                      = 3 W $ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--98
+]
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
@@ -1388,33 +1386,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12 <../../schemaMesurePulses.png>]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 115.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 131.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 115.
-
-Missing character: There is no ° in font zptmcm7t!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 116.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 116.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 131.
 
 Missing character: There is no ° in font zptmcm7t!
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 123.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 132.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 123.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 132.
 
 Missing character: There is no ° in font zptmcm7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+LaTeX Warning: Command \textdegree invalid in math mode on input line 139.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 139.
+
+Missing character: There is no ° in font zptmcm7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--135
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
 
@@ -1443,10 +1441,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 22265 strings out of 474968
- 456879 string characters out of 5780080
- 780125 words of memory out of 5000000
- 43332 multiletter control sequences out of 15000+600000
+ 22277 strings out of 474968
+ 457396 string characters out of 5780081
+ 780133 words of memory out of 5000000
+ 43343 multiletter control sequences out of 15000+600000
  520030 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,11n,117p,1007b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1458,10 +1456,10 @@ ype1/urw/symbol/usyr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usy
 r.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/
 2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 277167 bytes).
+Output written on main.pdf (15 pages, 380900 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
