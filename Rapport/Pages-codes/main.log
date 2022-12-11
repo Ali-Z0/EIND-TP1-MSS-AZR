@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.11)  11 DEC 2022 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.11)  11 DEC 2022 20:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1231,6 +1231,18 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 99.
 
 Missing character: There is no ° in font zptmcm7t!
 
+LaTeX Warning: Command \textdegree invalid in math mode on input line 106.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 106.
+
+Missing character: There is no ° in font zptmcm7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1241,7 +1253,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
@@ -1251,7 +1263,7 @@ File: ../../Simulations/premiere_partie/pont_diviseur.png Graphic file (type pn
 g)
 <use ../../Simulations/premiere_partie/pont_diviseur.png>
 Package pdftex.def Info: ../../Simulations/premiere_partie/pont_diviseur.png  u
-sed on input line 116.
+sed on input line 120.
 (pdftex.def)             Requested size: 248.96957pt x 140.08858pt.
 <../../Simulations/premiere_partie/tension_3v3.png, id=39, 1029.8475pt x 557.08
 125pt>
@@ -1259,7 +1271,7 @@ File: ../../Simulations/premiere_partie/tension_3v3.png Graphic file (type png)
 
 <use ../../Simulations/premiere_partie/tension_3v3.png>
 Package pdftex.def Info: ../../Simulations/premiere_partie/tension_3v3.png  use
-d on input line 128.
+d on input line 132.
 (pdftex.def)             Requested size: 248.96957pt x 134.67126pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1364,7 +1376,7 @@ ype1/urw/symbol/usyr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usy
 r.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/
 2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 248598 bytes).
+Output written on main.pdf (13 pages, 248761 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
