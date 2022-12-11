@@ -11,9 +11,11 @@
 \contentsline {subsection}{\numberline {3.1}Schematic proposal for limiting output current to 250mA}{8}{}%
 \contentsline {subsection}{\numberline {3.2}Plotting output tension depending on output current}{9}{}%
 \contentsline {subsubsection}{\numberline {3.2.1}List of all the instruments}{9}{}%
-\contentsline {subsection}{\numberline {3.3}Oscillogram of the output current depending on the output tension}{11}{}%
-\contentsline {subsubsection}{\numberline {3.3.1}Measurement schematic}{11}{}%
-\contentsline {subsection}{\numberline {3.4}Dissipated power calculation}{12}{}%
-\contentsline {subsection}{\numberline {3.5}Estimation of the junction's temperature without cooling}{13}{}%
-\contentsline {subsection}{\numberline {3.6}Short-circuited output - dissipated power calculation}{13}{}%
-\contentsline {section}{\numberline {4}Conclusion}{14}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Measures}{10}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Simulation}{11}{}%
+\contentsline {subsection}{\numberline {3.3}Oscillogram of the output current depending on the output tension}{12}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Measurement schematic}{12}{}%
+\contentsline {subsection}{\numberline {3.4}Dissipated power calculation}{13}{}%
+\contentsline {subsection}{\numberline {3.5}Estimation of the junction's temperature without cooling}{14}{}%
+\contentsline {subsection}{\numberline {3.6}Short-circuited output - dissipated power calculation}{14}{}%
+\contentsline {section}{\numberline {4}Conclusion}{15}{}%

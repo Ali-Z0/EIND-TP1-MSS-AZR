@@ -43,21 +43,38 @@ We will observe this characteristic through our following measurements.
 
 \clearpage
 
+\subsubsection{Measures}
 \underline{Measurement schematic:}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{../../SchemaMesureChargeElectronique}
+	\caption{Measurement schematic for output voltage depending on output current}
+	\label{fig:schemamesurechargeelectronique}
+	\source{Authors}
+\end{figure}
 
+\underline{Measurement method:}
+
+In order to perform the requested measurements, we had to change the induced current of the electronic load at each iteration, with a step of 10mA, and measure the current and voltage.\vspace{+6pt}
 
 \underline{Measures:}
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\linewidth]{../../Grph-pointG}
+	\includegraphics[width=0.7\linewidth]{../../Grph-pointG}
 	\caption{Point G measurements}
 	\label{fig:grph-pointg}
 	\source{Authors}
 \end{figure}
 
+\clearpage
 \underline{Analysis:}
 
 As we can see on figure \ref{fig:grph-pointg}, When no current is inducted on the output, the potential voltage on the load is at its maximum (\textbf{$\sim 24V = \sim Vin$}). We can see that when a larger current is induced, the voltage drops, which is mainly due to the voltage loss on the serial resistor. We also noticed during the measurements that when the electronic load is short-circuited, we have an output current of \textbf{255mA} (which is slightly higher than our sized maximum) and an output voltage of \textbf{0V}.
+
+\subsubsection{Simulation}
+
+The simulation schematic is the same as in figure \ref{fig:schemamesurechargeelectronique}.
+
 
 
 }
