@@ -65,51 +65,53 @@ As we can see on figure \ref{fig:grph-pointg}, When no current is inducted on th
 \newpage
 \subsection{Oscillogram of the output current depending on the output tension} \label{ssec:num13}
 {
-	
-\subsubsection{Measurement schematic}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.8\linewidth]{../../schemaMesurePulses}
-	\caption{Measurement schematic}
-	\label{fig:schemamesurepulses}
-	\source{Authors}
-\end{figure}
-
-
+	\subsubsection{Measurement schematic}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{../../schemaMesurePulses}
+		\caption{Measurement schematic}
+		\label{fig:schemamesurepulses}
+		\source{Authors}
+	\end{figure}
 }
+
 \clearpage
 
 \subsection{Dissipated power calculation} \label{ssec:num14}
 {
-We can calculate the power dissipated in the LM317 using the same formula as before and taking in consideration the duty cycle. \\
-$\alpha = 50\% $ \\
+	We can calculate the power dissipated in the LM317 using the same formula as before and taking in consideration the duty cycle. \\
+	$\alpha = 50\% $ \\
+	
+	\begin{equation}
+		P_{reg_{ON}} = (U_{in_{ON}} - U_{out_{ON}})*I_{out_{ON}}
+	\end{equation}
+	
+	\begin{equation}
+		P_{reg_{OFF}} = (U_{in_{OFF}} - U_{out_{OFF}})*I_{out_{OFF}}
+	\end{equation}
+	
+	\begin{equation}
+		P_{reg_{TOT}} = P_{reg_{ON}}*\alpha + P_{reg_{OFF}} * (1-\alpha)
+	\end{equation}
+	
+	Calculated values for our application:\\
+	$ P_{reg_{ON}} = 6 W $ \\
+	$ P_{reg_{OFF}}  = 0 W $ \\
+	$ P_{reg_{TOT}} = 3 W $ \\
+	
+	Datasheet set the maximum allowable power dissipation as : \\
+	
+	\begin{equation}
+		P_{MAX} = (T_{J_{MAX}} - T_{A}) / Rth_{JA}
+	\end{equation}
 
-\begin{equation}
-	P_{reg_{ON}} = (U_{in_{ON}} - U_{out_{ON}})*I_{out_{ON}}
-\end{equation}
+	In our case, this value is :
+	
+	\begin{equation}
+	P_{MAX} = 3,03 W
+	\end{equation}
 
-\begin{equation}
-	P_{reg_{OFF}} = (U_{in_{OFF}} - U_{out_{OFF}})*I_{out_{OFF}}
-\end{equation}
-
-\begin{equation}
-	P_{reg_{TOT}} = P_{reg_{ON}}*\alpha + P_{reg_{OFF}} * (1-\alpha)
-\end{equation}
-
-Calculated values for our application:\\
-$ P_{reg_{ON}} = 6 W $ \\
-$ P_{reg_{OFF}}  = 0 W $ \\
-$ P_{reg_{TOT}} = 3 W $ \\
-
-Datasheet set the maximum allowable power dissipation as : \\
-\begin{equation}
-	P_{MAX} = (T_{J_{MAX}} - T_{A}) / Rth_{JA}
-\end{equation}
-In our case, this value is :
-\begin{equation}
-P_{MAX} = 3,03 W
-\end{equation}
-So this mean we reached the absolute maximal power that our LM317 can dissipate. Going higher than this value would impact reliability and/or trigger temperature protections.
+	So this mean we reached the absolute maximal power that our LM317 can dissipate. Going higher than this value would impact reliability and/or trigger temperature protections.
 
 }
 
@@ -117,31 +119,41 @@ So this mean we reached the absolute maximal power that our LM317 can dissipate.
 
 \subsection{Estimation of the junction's temperature without cooling} \label{ssec:num15}
 {
-$ T_{A} = 35 \ °C $ \\
-$ Rth_{JA} = 37.9 °C/W $\\
-We can define the temperature of the junction by :
-\begin{equation*}
-	T_{J} = T_{A} + Rth_{JA} * P_{reg_{TOT}}
-\end{equation*}
-
-Calculated value for our application:\\
-$ T_{J} = 148,7 \ °C $ \\
-
-The datasheet set the maximal admissible temperature to 150°C.
+	$ T_{A} = 35 \ °C $ \\
+	$ Rth_{JA} = 37.9 °C/W $\\
+	We can define the temperature of the junction by :
+	\begin{equation*}
+		T_{J} = T_{A} + Rth_{JA} * P_{reg_{TOT}}
+	\end{equation*}
+	
+	Calculated value for our application:\\
+	$ T_{J} = 148,7 \ °C $ \\
+	
+	The datasheet set the maximal admissible temperature to 150°C.
 }
 \subsection{Short-circuited output - dissipated power calculation} \label{ssec:num16}
 {
+	When short-circuiting the output, we get the maximal current possible. As the output is grounded, all the voltage occurs in the LM317. This leads to a situation where the LM317 needs to dissipate a lot of power, which we calculated this way : \\
+	
 	\begin{equation}
 		P_{reg} = (U_{in} - U_{out} ) * I_{out}
 	\end{equation}
+
 	Calculated values for our application:\\
+	
 	$ P_{reg} = 6W $ \\
 }
 
 \clearpage
 \section{Conclusion}
 {
-In this practicum we
+In this practicum we learned how to configure and use a circuit based on the LM317 regulator. \\
+We first established the way of using it as a voltage regulator. We needed to take in consideration the ADJ current that was neglecated by the datasheet to fit to our specific application. We then made sure that our sizing was correct. We then simulated our circuit to confirm that, which was working as expected by specifications.\\
+Secondly, we used the LM317 as a current limitator. We found a schematic in the datasheet composed of only a single resistor. We made sure that the current limitation was working by short-circuit the output. We then made some measurement to observe the change in the output voltage in comparaison with output current. We made sure that the LM317 could handle all the power dissipation by calculating it. We saw that the circuit was at its maximum capabilities and even exceed it sometimes which triggered its internal protections.\\
+
+Lausanne, the 12th of december 2022 \\
+\\
+Ali Zoubir \ Miguel Santos
 }
 
 \clearpage
