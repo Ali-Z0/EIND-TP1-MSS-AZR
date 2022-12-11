@@ -12,6 +12,7 @@
 \contentsline {subsection}{\numberline {3.2}Plotting output tension depending on output current}{10}{}%
 \contentsline {subsubsection}{\numberline {3.2.1}List of all the instruments}{10}{}%
 \contentsline {subsubsection}{\numberline {3.2.2}Measurement schematic}{11}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Measures}{11}{}%
 \contentsline {subsection}{\numberline {3.3}Oscillogram of the output current depending on the output tension}{12}{}%
 \contentsline {subsubsection}{\numberline {3.3.1}Measurement schematic}{12}{}%
 \contentsline {subsection}{\numberline {3.4}Dissipated power calculation}{13}{}%
