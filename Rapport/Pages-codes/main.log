@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.8)  11 DEC 2022 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.8)  11 DEC 2022 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1345,6 +1345,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10
 
  <../../Grph-pointG.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1353,15 +1367,68 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <../../schemaMesurePulses.png>]) [12
+[11 <../../schemaMesurePulses.png>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 120.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 120.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 121.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 121.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 128.
+
+Missing character: There is no ° in font zptmcm7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--140
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13
+
+]) [14
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 22262 strings out of 474968
- 456861 string characters out of 5780081
+ 22265 strings out of 474968
+ 456879 string characters out of 5780081
  780124 words of memory out of 5000000
  43332 multiletter control sequences out of 15000+600000
- 518166 words of font info for 91 fonts, out of 8000000 for 9000
+ 520030 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,11n,117p,1007b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/tex
@@ -1372,10 +1439,10 @@ ype1/urw/symbol/usyr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usy
 r.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/
 2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 322777 bytes).
+Output written on main.pdf (14 pages, 326873 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
